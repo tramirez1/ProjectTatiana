@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+/*---------------- NAVIGATION SECTION -------------*/
+nav{
+    background-color: rgb(182, 182, 182);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo, .topnav{
+    display: inline-block;
+}
+.logo{
+    margin: 20px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+}
+
+.logo a{
+    text-decoration: none;
+    color: beige;
+}
+.topnav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 40px;
+
+
+}
+.topnav{
+    float: right;
+    
+   
+}
+
+.topnav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  
+   
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    color: beige;
+   
+}
+
+.topnav ul li a:hover{
+    background-color: rgb(243, 242, 242);
+    color: black;
+    transition: all 0.5s ease;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+/*---------------- NAVIGATION SECTION -------------*/
+header{
+    background-image: url(../images/plane2.jpg);
+    height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/*---------------- BODY ---------------------------*/
+h2{
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 100px;
+    margin-top: 0;
+    color: beige;
+}
+.margin{
+    padding-bottom: 100px;
+}
+
+.rect{
+    padding-top: 100px;
+    width: 10px;
+    padding-right: 100px;
+    padding-left: 1000px;
+}
+.sitemap1{
+    margin-left: 300px;
+   
+}
+.sitemap1, .sitemap2{
+    display: inline-block;
+  
+}
+.sitemap3, .sitemap4{
+    display: inline-block;
+    
+}
+
+.sitemap5, .sitemap6{
+    display: inline-block;
+}
+
+ul,li{
+    list-style:none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.about{
+    font-weight: bold;
+    color: blanchedalmond
+}
+
+.feed a{
+    text-decoration: none;
+    color: rgb(235, 235, 230)
+
+}

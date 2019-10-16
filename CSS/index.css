@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+
+/*---------------- NAVIGATION SECTION -------------*/
+nav{
+    background-color: rgb(182, 182, 182);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo, .topnav{
+    display: inline-block;
+}
+.logo{
+    margin: 20px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+}
+
+.logo a{
+    text-decoration: none;
+    color: beige;
+}
+
+.topnav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 40px;
+
+
+}
+.topnav{
+    float: right;
+    
+   
+}
+
+.topnav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  
+   
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    color: beige;
+   
+}
+
+.topnav ul li a:hover{
+    background-color: rgb(243, 242, 242);
+    color: black;
+    transition: all 0.5s ease;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+/*---------------- NAVIGATION SECTION -------------*/
+
+/*---------------- HEADER SECTION -------------*/
+
+header{
+    background-image: url(../images/plane3.jpg);
+    height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+  
+}
+
+header h1{
+   margin: 0; 
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(107, 107, 124);
+}
+
+.header{
+    text-align: center;
+    padding-top: 370px;
+}
+
+.header a{
+    color: beige;
+}
+
+
+ 
+
+
+.buttonmap, .buttoncontact {
+    background-color: transparent;
+    width: 150px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+
+.buttonmap:hover{
+    background-color: blanchedalmond;
+    transition: all 0.5s ease;
+    color: black;
+
+}
+
+.buttoncontact:hover{
+    background-color: blanchedalmond;
+    transition: all 0.5s ease;
+    color: black;
+}
+
+
