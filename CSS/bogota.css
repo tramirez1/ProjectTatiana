@@ -70,8 +70,48 @@ nav{
 /*----------------HEADER SECTION----------------*/
 header{
     background-color: rgb(224, 204, 148);
-    height: 8170px;
+    height: 4800px;
     background-size: cover;
     background-repeat: no-repeat;
     
+}
+/*---------------BOGOTA SECTION-----------------*/
+
+#bogotaimg{
+    height: 500px;
+    padding-left: 300px;
+   
+}
+#bogota{
+    text-align: center;
+
+}
+
+.table{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h2{
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+h4{
+    padding-left: 50px;
+   
+}
+.img{
+    height: 300px;
+}
+
+#andresimg{
+    height: 250px;
+    padding-left: 300px;
+}
+#video{
+    padding-left: 500px;
+}
+
+#back{
+    padding-left: 40px;
 }

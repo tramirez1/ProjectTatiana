@@ -21,18 +21,18 @@ nav{
     padding-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
     color: beige;
+
 }
 
 .logo a{
     text-decoration: none;
     color: beige;
 }
+
 .topnav ul{
     list-style-type: none;
     padding-left: 0px;
     padding-right: 40px;
-    margin-bottom: 0px;
-    margin-top: 0px;
 
 
 }
@@ -44,8 +44,7 @@ nav{
 
 .topnav ul li {
     display: inline-block;
-    margin-right: 10px;
-    padding-bottom: 0px;
+    margin-right: 20px;
   
    
 }
@@ -67,76 +66,37 @@ nav{
     border-radius: 5px;
 }
 
-/*---------------- NAVIGATION SECTION -------------*/
+/*---------------- NAVIGATION SECTION ----------*/
+
+/*----------------HEADER SECTION----------------*/
 header{
     background-image: url(../images/plane2.jpg);
-    height: 790px;
+    height: 2250px;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
-/*---------------- BODY ---------------------------*/
-h2{
-    text-align: center;
-    padding-left: 0px;
-    padding-top: 100px;
-    margin-top: 0;
-    color: beige;
-}
 
+/*----------------CREDITS SECTION----------------*/
 
-.rect{
-    padding-top: 100px;
-    width: 10px;
-    padding-right: 100px;
-    padding-left: 1000px;
-}
-.sitemap1{
-    margin-left: 500px;
-    margin-bottom: 100px;
+h1{
+    padding-top: 30px;
     margin-top: 0px;
-   
-}
-.sitemap1{
-    display: inline-block;
-}
-.sitemap2{
-    display: inline-block;
-  
-}
-.sitemap3, .sitemap4{
-    display: inline-block;
-    
+    padding-left: 30px;
+    color: white;
 }
 
-.sitemap5, .sitemap6{
-    display: inline-block;
+h3
+{
+    padding-left: 50px;
+    color: wheat;
 }
 
-ul,li{
-    list-style:none;
-    text-decoration: none;
-    padding: 10px;
+#back{
+    padding-left: 30px;
 }
 
-.about{
-    font-weight: bold;
-    color: blanchedalmond
+li{
+    color: white;
 }
 
-.feed a{
-    text-decoration: none;
-    color: rgb(235, 235, 230)
-
-}
-
-.honor{
-    color:white;
-    text-align: center;
-}
-
-.button{
-    margin-left: 60px;
-    background-color: wheat;
-    color:black;
-}

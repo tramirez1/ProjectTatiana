@@ -69,9 +69,56 @@ nav{
 
 /*----------------HEADER SECTION----------------*/
 header{
-    background-image: url(../images/plane2.jpg);
-    height: 790px;
+    background-color: rgb(224, 204, 148);
+    height: 4620px;
     background-size: cover;
     background-repeat: no-repeat;
     
+}
+
+/*---------------SAN JOSE SECTION-----------------*/
+
+#bogotaimg{
+    height: 500px;
+    padding-left: 350px;
+   
+}
+#bogota{
+    text-align: center;
+
+}
+
+.table{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h2{
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+h4{
+    padding-left: 50px;
+   
+}
+.img{
+    height: 300px;
+}
+
+#andresimg{
+    height: 250px;
+
+}
+#video{
+    padding-left: 350px;
+}
+
+#back{
+    padding-left: 40px;
+}
+
+#button{
+    margin-left: 40px;
+    background-color: wheat;
+    color: black;
 }

@@ -70,8 +70,79 @@ nav{
 /*----------------HEADER SECTION----------------*/
 header{
     background-color: rgb(224, 204, 148);
-    height: 7650px;
+    height: 4760px;
     background-size: cover;
     background-repeat:repeat;
     
+}
+
+/*-----------------MADRID---------------------*/
+
+#madridimg{
+    height: 500px;
+    padding-left: 350px;
+   
+}
+#madrid{
+    text-align: center;
+
+}
+
+#pradoimg{
+    height: 220px;
+}
+
+#retiroimg{
+   float: right;
+    height: 300px;
+    width: 450px;
+   
+}
+
+#plazaimg{
+    height: 300px;
+    width: 450px;
+}
+
+
+#paraguasimg{
+    height: 320px;
+    width: 450px;
+}
+
+#amazonicoimg{
+    height: 300px;
+    width:450px;
+}
+
+#kapitalimg{
+    height: 300px;
+    width: 450px;
+}
+
+#barceloimg{
+    height: 300px;
+    width: 450px;
+}
+.table{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h2{
+    padding-left: 30px;
+}
+
+h4{
+    padding-left: 30px;
+}
+.img{
+    height: 300px;
+}
+
+#video{
+    padding-left: 500px;
+}
+
+#back{
+    padding-left: 40px;
 }

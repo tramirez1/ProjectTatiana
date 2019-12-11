@@ -1,9 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" type="text/css" href="CSS/madrid.css">
+    <head>
 
+        <link rel="stylesheet" type="text/css" href="CSS/madrid.css">
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").style.color = "white";
+            }
+
+            function changeText() {
+                document.getElementById("txt").innerHTML
+                    = "An interesting fact about the Reina Sofia Museum is that once upon a time, it was a hospital and got converted into a museum in the year 1992.";
+            }
+
+            function dblClick(){
+                document.getElementById("madrid").innerHTML = "Welcome to the Madrid Page!";
+            }
+
+        </script>
+        </body>
+
+</html>
+
+
+</script>
 
 
 </head>
@@ -11,147 +38,238 @@
 <body>
 
     <nav>
-        <div class="logo"><a href=index.html>Tatis Destinations </a></div>      
-        <div class="topnav"> 
-         <ul>
-            <li> <a href="madrid.htm">Madrid</a> </li>
-            <li><a href="sanjuan.htm">San Juan</a> </li>
-            <li><a href="sanjose.htm">San Jose</a> </li>
-            <li><a href="bogota.htm">Bogota</a> </li>
-            <li><a href="sitemap.htm">Site Map</a></li>
-            <li><a href="contact.htm">Contact</a> </li>
-            <li><a href="feedback.htm">Feedback</a> </li>
-          
-        </ul>
+        <div class="logo"><a href=index.html>Tatis Destinations </a></div>
+        <div class="topnav">
+            <ul>
+                <li> <a href="madrid.htm">Madrid</a> </li>
+                <li><a href="sanjuan.htm">San Juan</a> </li>
+                <li><a href="sanjose.htm">San Jose</a> </li>
+                <li><a href="bogota.htm">Bogota</a> </li>
+                <li><a href="sitemap.htm">Site Map</a></li>
+                <li><a href="contact.htm">Contact</a> </li>
+                <li><a href="feedback.htm">Feedback</a> </li>
+                <li><a href="credits.htm">Credits</a></li>
+
+            </ul>
         </div>
-        </nav>
+    </nav>
 
-<header>
+    <header>
 
-<img src="images/madrid.jpg" alt="madrid" title="Madrid">
+        <img src="images/madrid.jpg" alt="madrid" title="Madrid" id="madridimg">
 
-<h1>Madrid</h1>
+        <h1 id="madrid" ondblclick="dblClick()">Madrid</h1>
 
-<h2>Things to Do</h2>
+        <h2 id="h2">Things to Do</h2>
 
-<div>
-<h4>Visit the Prado Museum</h4>
-<p> The Prado Museum is one of the most prestigious art 
-    museums in the world. Alongside Velázquez's Las Meninas and Goya's 
-    The 3rd of May 1808 in Madrid: The Executions on Principe Pío Hill, the galleries are packed with masterpieces from the Spanish, Italian and Flemish schools.
-    Storing over 8,000 artworks, the Prado Museum 
-    offers an expansive survey of Western painting, 
-    from the Middle Ages to the 19th century.</p>
+        <div>
+            <h4 class="h4">Visit the Prado Museum</h4>
 
-<img src="images/prado.jpeg" alt="Prado" title="Prado Museum">
+            <table class="table">
+                <tr>
+                    <td>
+                        <p id="demo" onclick="myFunction()">The Prado Museum is one of the most prestigious art
+                            museums in the world. Alongside Velázquez's Las Meninas and Goya's
+                            The 3rd of May 1808 in Madrid: The Executions on Principe Pío Hill, the galleries are packed
+                            with masterpieces from the Spanish, Italian and Flemish schools.
+                            Storing over 8,000 artworks, the Prado Museum
+                            offers an expansive survey of Western painting,
+                            from the Middle Ages to the 19th century.</p>
+                    </td>
+
+                    <td><img src="images/prado.jpeg" alt="Prado" title="Prado Museum" id="pradoimg"> </td>
+                </tr>
+            </table>
+
+            <h4 class="h4">The Reina Sofia National Art Museum</h4>
+            <table class="table">
+                <tr>
+                    <td>
+                        <p id="txt" onmouseover="changeText()"> Artworks by Dalí, Miró and Juan Gris hang
+                            alongside Picasso's Guernicain a riveting
+                            survey of Spanish Art History. The museum aims
+                            to promote contemporary art with its collection,
+                            public library and a vast programme of shows,
+                            conferences, performances, projections and
+                            concerts.</p>
+                    </td>
+
+                    <td><img src="images/reinasofia.jpg" alt="reinasofia" title="Museo de Reina Sofia" class="img">
+                    </td>
+            </table>
+            </tr>
+
+            <h4 class="h4">El Retiro Park</h4>
+            <table class="table">
+                <tr>
+                    <td>
+                        <p>El Retiro Park is part of the city´s
+                            historical heritage and botanical patrimony
+                            inherited from past centuries. Once a recreation
+                            area for the Royal Family, it has become a
+                            very popular park and is central to the city´s
+                            image.</p>
+                    </td>
+
+                    <td> <img src="images/parquemadrid.jpg" alt="parquedelretiro" title="Parque del Retiro" width="50%" 
+                            id="retiroimg"></td>
+                </tr>
+            </table>
+            <h4 class="h4">Plaza Mayor</h4>
+            <table class="table">
+                <tr>
+                    <td>
+                        <p>This porticoed square lies at the heart of Hapsburg Madrid, the old part of the city and
+                            one of its most charming districts.
+                            Before Madrid became a capital
+                            city, with its wide avenues and boulevards,
+                            its footprint consisted of narrow streets, alleys
+                            and passageways, which today take us back to the times of swashbuckling
+                            swordsmen and medieval rogues.</p>
+
+                    </td>
+
+                    <td> <img src="images/plazamayor.jpg" alt="plazamayor" title="Plaza Mayor" width="50%"
+                            id="plazaimg"> </td>
+                </tr>
+            </table>
+        </div>
+
+        <br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SVFD3UzaoiI" frameborder="0" allow="accelerometer; autoplay; 
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
 
 
-<h4>The Reina Sofia National Art Museum</h4>
-<p>
-        Artworks by Dalí, Miró and Juan Gris hang 
-        alongside Picasso's Guernicain a riveting 
-        survey of Spanish Art History. The museum aims 
-        to promote contemporary art with its collection, 
-        public library and a vast programme of shows, 
-        conferences, performances, projections and 
-        concerts.
-</p>
-
-<img src="images/reinasofia.jpg" alt="reinasofia" title="Museo de Reina Sofia">
-
-<h4>El Retiro Park</h4>
-<p>
-        El Retiro Park is part of the city´s 
-        historical heritage and botanical patrimony 
-        inherited from past centuries. Once a recreation 
-        area for the Royal Family, it has become a 
-        very popular park and is central to the city´s
-         image.
-</p>
-
-<img src="images/parquemadrid.jpg" alt="parquedelretiro" title="Parque del Retiro" width="50%">
-
-<h4>Plaza Mayor</h4>
-<p>
-        This porticoed square lies at the heart of Hapsburg Madrid, the old part of the city and 
-        one of its most charming districts.
-        Before Madrid became a capital 
-        city, with its wide avenues and boulevards, 
-        its footprint consisted of narrow streets, alleys 
-        and passageways, which today take us back to the times of swashbuckling 
-        swordsmen and medieval rogues.     
-        
-</p>
-
-<img src="images/plazamayor.jpg" alt="plazamayor" title="Plaza Mayor" width="50%">
-
-</div>
-
-<br><br>
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/SVFD3UzaoiI" 
-frameborder="0" allow="accelerometer; autoplay; 
-encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 
 
+        <h2>Restaurants</h2>
 
+        <div>
+            <h4 class="h4">El Paraguas</h4>
+            <table class="table">
+                <tr>
+                    <td>
+                        <p>A reference point in terms of quality Asturian cuisine, El Paraguas is the first project in
+                            Madrid from
+                            Sandro Silva and Marta Seco. It is notable for its traditional recipes and the careful
+                            presentation of
+                            its dishes. Delicacies such as legumes with partridge or morel mushrooms stuffed with foie
+                            gras have
+                            already achieved the category of classics within the capital. Quality and authenticity
+                            predominate as
+                            the main ingredients in this honest cuisine, which makes use of excellent products.
+                            Recognizable flavours and smells from the classic Asturian recipe book are fused in this
+                            welcoming and
+                            sophisticated two-floor space, which is equipped with a number of private booths with warm
+                            décor. It is
+                            the perfect place to enjoy never-ending encounters.</p>
+                    </td>
 
-<h2>Restaurants</h2>
+                    <td> <img src="images/paraguas.jpg" alt="paraguas" title="El Paraguas" id="paraguasimg"> </td>
+                </tr>
+            </table>
+            <h4 class="h4">Ten Con Ten</h4>
+            <table class="table">
+                <tr>
+                    <td>
+                        <p>Divided into several spaces, the entrance has a large bar where you can have a cocktail, long
+                            drink or an
+                            aperitif in an informal setting, which includes a series of high tables, not available for
+                            reservation.
+                            Further inside, you'll find the more formal areas: the library and bistro, with elegant,
+                            intimate
+                            tables.
 
-<div>
-<h4>El Paraguas</h4>
+                            There, you can enjoy the well-prepared cuisine at your leisure, including lemon Bilbao
+                            butterfish, beef
+                            cheeks with onion rice or verdina beans and quail. An extensive wine menu and other
+                            beverages complete
+                            the restaurant's offering.</p>
+                    </td>
 
-<p>A reference point in terms of quality Asturian cuisine, El Paraguas is the first project in Madrid from Sandro Silva and Marta Seco. It is notable for its traditional recipes and the careful presentation of its dishes. Delicacies such as legumes with partridge or morel mushrooms stuffed with foie gras have already achieved the category of classics within the capital. Quality and authenticity predominate as the main ingredients in this honest cuisine, which makes use of excellent products.
-        Recognizable flavours and smells from the classic Asturian recipe book are fused in this welcoming and sophisticated two-floor space, which is equipped with a number of private booths with warm décor. It is the perfect place to enjoy never-ending encounters.
-        </p>
+                    <td> <img src="images/tenconten.jpg" alt="tenconten" title="Ten Con Ten" class="img"> </td>
 
-<img src="images/paraguas.jpg" alt="paraguas" title="El Paraguas">
+                </tr>
+            </table>
+            <h4 class="h4">Restaurante Amazonico</h4>
+            <table class="table">
+                <tr>
+                    <td>
+                        <p>Crossing its threshold means entering the greenness and lushness of the Amazon Jungle. The
+                            gastronomic
+                            proposal is inspired by tropical, Asian and Mediterranean cuisine, with references to
+                            Brazilian
+                            gastronomy, our chef Sandro Silva’s country of origin.
 
+                            Its different atmospheres allow you to enjoy the restaurant at any time of the day, either
+                            with a light
+                            lunch, tapas at the bar, savouring its cocktails or with a quiet dinner.</p>
+                    </td>
 
-<h4>Ten Con Ten</h4>
+                    <td><img src="images/amazonico.jpg" alt="amazonico" title="Restaurante Amazonico" id="amazonicoimg">
+                    </td>
+                </tr>
+            </table>
+        </div>
 
-<p>Divided into several spaces, the entrance has a large bar where you can have a cocktail, long drink or an aperitif in an informal setting, which includes a series of high tables, not available for reservation. Further inside, you'll find the more formal areas: the library and bistro, with elegant, intimate tables.
+        <h2 class="h2">Night Life</h2>
 
-        There, you can enjoy the well-prepared cuisine at your leisure, including lemon Bilbao butterfish, beef cheeks with onion rice or verdina beans and quail. An extensive wine menu and other beverages complete the restaurant's offering.
-    </p>
+        <h4 class="h4">Kapital</h4>
+        <table class="table">
+            <tr>
+                <td>
+                    <p>The Godzilla of Madrid clubs, with splendid views of the main dancefloor from many of the upper
+                        balconies:
+                        dance voyeur heaven. Of seven storeys, each has something different to offer – the main
+                        dancefloor and bars
+                        are at ground level; the first floor has karaoke; the second, R&B and hip hop; the third, cosy
+                        cocktail
+                        bars; the fourth is Spanish disco; the fifth has a cinema and more cool sounds; and at the top
+                        is a terrace
+                        with a retractable roof.</p>
+                </td>
 
-    <img src="images/tenconten.jpg" alt="tenconten" title="Ten Con Ten">
+                <td><img src="images/kapital.jpg" alt="Kapital" title="Kapital" id="kapitalimg"> </td>
+            </tr>
+        </table>
+        <h4 class="h4">Teatro Barcelo</h4>
+        <table class="table">
+            <tr>
+                <td>
+                    <p>Teatro Barcelo (ex-Pacha Madrid) is one of the most iconic clubs of the Madrid city center.
+                        Located in an
+                        historical building from the 30’s decade, opened almost since 30 years, it has continuously
+                        evolved
+                        throughout the years, maintaining its position as one of the best clubs in Madrid. Through the
+                        years,
+                        Barcelo’s walls have seen famous people as Andy Warhol, Prince, Mick Jagger dancing in the VIP
+                        areas, next
+                        to thousands of Madrid party people, coming days after days in this club.</p>
+                </td>
 
-<h4>Restaurante Amazonico</h4>
-<p>Crossing its threshold means entering the greenness and lushness of the Amazon Jungle. The gastronomic proposal is inspired by tropical, Asian and Mediterranean cuisine, with references to Brazilian gastronomy, our chef Sandro Silva’s country of origin.
+                <td> <img src="images/barcelo.jpg" alt="barcelo" title="Teatro Barcelo" id="barceloimg"> </td>
+            </tr>
+        </table>
+        <h4 class="h4">Opium Madrid</h4>
+        <table class="table">
+            <tr>
+                <td>
+                    <p>Here you will find the most selected and exclusive crowds of the city. Madrid’s exclusive
+                        population often
+                        goes to this beautiful club. If you’re looking for the most exclusive place in town, hurry up
+                        and put your
+                        name on the list or book a table to enjoy a wonderful night that won’t let you indifferent.</p>
 
-        Its different atmospheres allow you to enjoy the restaurant at any time of the day, either with a light lunch, tapas at the bar, savouring its cocktails or with a quiet dinner.
-    </p>
+                </td>
 
-    <img src="images/amazonico.jpg" alt="amazonico" title="Restaurante Amazonico">
-
-    </div>
-
-<h2>Night Life</h2>
-
-<h4>Kapital</h4>
-<p>The Godzilla of Madrid clubs, with splendid views of the main dancefloor from many of the upper balconies: dance voyeur heaven. Of seven storeys, each has something different to offer – the main dancefloor and bars are at ground level; the first floor has karaoke; the second, R&B and hip hop; the third, cosy cocktail bars; the fourth is Spanish disco; the fifth has a cinema and more cool sounds; and at the top is a terrace with a retractable roof.
-</p>
-
-<img src="images/kapital.jpg" alt="Kapital" title="Kapital">
-
-<h4>Teatro Barcelo</h4>
-<p>Teatro Barcelo (ex-Pacha Madrid) is one of the most iconic clubs of the Madrid city center. Located in an historical building from the 30’s decade, opened almost since 30 years, it has continuously evolved throughout the years, maintaining its position as one of the best clubs in Madrid. Through the years, Barcelo’s walls have seen famous people as Andy Warhol, Prince, Mick Jagger dancing in the VIP areas, next to thousands of Madrid party people, coming days after days in this club.
-</p>
-
-<img src="images/barcelo.jpg" alt="barcelo" title="Teatro Barcelo">
-
-<h4>Opium Madrid</h4>
-<p>Here you will find the most selected and exclusive crowds of the city. Madrid’s exclusive population often goes to this beautiful club. If you’re looking for the most exclusive place in town, hurry up and put your name on the list or book a table to enjoy a wonderful night that won’t let you indifferent.
-
-</p>
-
-<img src="images/opium.jpg" alt="opium" title="Opium Madrid">
-<br>
-<br>
-<a href="madrid.htm">Back to Top</a>
-</header>
+                <td> <img src="images/opium.jpg" alt="opium" title="Opium Madrid" class="img"> </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <a href="madrid.htm" id="back">Back to Top</a>
+    </header>
 </body>
+
 </html>

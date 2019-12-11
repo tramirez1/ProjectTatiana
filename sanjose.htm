@@ -1,38 +1,230 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
 
 <head>
+
         <link rel="stylesheet" type="text/css" href="CSS/sanjose.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+
+                $(document).ready(function () {
+                        $("button").click(function () {
+                                $("td").toggle();
+                        });
+                });
+
+
+        </script>
 
 </head>
 
 <body>
 
         <nav>
-                <div class="logo"><a href=index.html>Tatis Destinations </a></div>      
-                <div class="topnav"> 
-                 <ul>
-                    <li> <a href="madrid.htm">Madrid</a> </li>
-                    <li><a href="sanjuan.htm">San Juan</a> </li>
-                    <li><a href="sanjose.htm">San Jose</a> </li>
-                    <li><a href="bogota.htm">Bogota</a> </li>
-                    <li><a href="sitemap.htm">Site Map</a></li>
-                    <li><a href="contact.htm">Contact</a> </li>
-                    <li><a href="feedback.htm">Feedback</a> </li>
-                  
-                </ul>
+                <div class="logo"><a href=index.html>Tatis Destinations </a></div>
+                <div class="topnav">
+                        <ul>
+                                <li> <a href="madrid.htm">Madrid</a> </li>
+                                <li><a href="sanjuan.htm">San Juan</a> </li>
+                                <li><a href="sanjose.htm">San Jose</a> </li>
+                                <li><a href="bogota.htm">Bogota</a> </li>
+                                <li><a href="sitemap.htm">Site Map</a></li>
+                                <li><a href="contact.htm">Contact</a> </li>
+                                <li><a href="feedback.htm">Feedback</a> </li>
+                                <li><a href="credits.htm">Credits</a></li>
+
+                        </ul>
                 </div>
-                </nav>
+        </nav>
 
-    <header>
+        <header>
+
+                <img src="images/sanjose.jpg" alt="sanjose" title="SanJose" id="bogotaimg">
+
+                <h1 id="bogota">San Jose</h1>
+
+                <h2 id="h2">Things to Do</h2>
+
+                <div>
+
+                        <h4 class="h4">National Theater</h4>
+
+                        <table class="table">
+                                <tr>
+                                        <td>The opulent building was constructed between 1891
+                                                and 1897, but the beautifully decorated
+                                                rooms and stage are still used for
+                                                performances today. If you can, try to attend a show for the full
+                                                experience. The architecture and decor of the theater is a mishmash of
+                                                European influences and includes marble sculptures as well as wall and
+                                                ceiling murals from both French and Italian artists.
+                                        </td>
+
+                                        <td> <img src="images/nationaltheater.jpg" alt="nationaltheater"
+                                                        title="National Theater" class="img">
+                                        </td>
+                                </tr>
+                        </table>
+                        <h4 class="h4">Mercado Central</h4>
+
+                        <table class="table">
+                                <td>
+                                        This sprawling Central Market has hundreds of shops, stalls, and local
+                                        restaurants spread out along the many corridors. Here, you will brush shoulders
+                                        with locals who come to do their shopping. Mercado Central has almost everything
+                                        you could imagine, from spices and medicinal herbs to flowers to souvenirs and
+                                        rich Costa Rican coffee.
+                                </td>
+
+                                <td> <img src="images/mercadocentral.jpg" alt="mercadocentral" title="Mercado Central"
+                                                class="img"> </td>
+                                </tr>
+                        </table>
+                        <h4>Museo del Oro Precolombino</h4>
+                        <table class="table">
+                                <tr>
+                                        <td>
+                                                Containing over 1,600 artifacts of Pre-Columbian gold from 500 A.D.,
+                                                this museum’s impressive collection is well worth a visit. It is located
+                                                under the Plaza de la Cultura, which is home to two other
+                                                currency-related museums, the National Coin Museum, which has a
+                                                collection dating back to 1236, and the “Casa de Moneda” that shows the
+                                                history of minting in Costa Rica.
+                                        </td>
+
+
+                                        <td> <img src="images/museodeloro.jpg" alt="museodeloro" title="Museo del Oro"
+                                                        class="img">
+                                        </td>
+                                </tr>
+                        </table>
+                        <h4>Casa Amarilla</h4>
+
+                        <table class="table">
+                                <tr>
+                                        <td>
+                                                Located on the northeast corner of Parque España, this beautiful
+                                                colonial-style, yellow mansion is home to the ministry of foreign
+                                                affairs. Although it is closed to the public, it’s worth strolling by to
+                                                admire the elegant outer architecture, as well as the historic ceiba
+                                                tree in front, which was planted by John F. Kennedy during his visit to
+                                                Costa Rica in 1963.
+                                        </td>
+
+                                        <td> <img src="images/casaamarilla.jpg" alt="casaamarilla" title="Casa Amarilla"
+                                                        class="img"> </td>
+                                </tr>
+                        </table>
+                </div>
+
+                <br>
+                <br>
+                <iframe width="918" height="517" src="https://www.youtube.com/embed/ZnogNGaBVN4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        id="video"></iframe>
 
 
 
-     </header>
 
+                <h2 class="h2">Restaurants</h2>
 
+                <div>
+                        <h4 class="h4">Adega</h4>
+                        <table class="table">
+                                <tr>
+                                        <td>Adega boasts San Jose’s only Michelin star and is only the second Portuguese
+                                                restaurant in the US to ever receive the honor. Powerhouse chefs David
+                                                Costa and Jessica Carreira have both cooked in Lisbon, and often host
+                                                Portuguese chefs from other Michelin-starred restaurants in Porto and
+                                                Lisbon. Besides being the most ambitious, elegant Portuguese restaurant
+                                                on the West Coast, Adega also boasts a wine cellar of Portuguese
+                                                rarities that one almost never sees outside the Iberian Peninsula.
+                                        </td>
 
+                                        <td><img src="images/adega.jpg" alt="adega" title="Adega" id="andresimg">
+                                        </td>
+                                </tr>
+                        </table>
+                        <h4 class="h4">La Foret</h4>
+                        <table class="table">
+                                <tr>
+                                        <td>
+                                                Housed in a charming creekside boarding house built in 1848, La Forêt is
+                                                surrounded by a lush forest on the outskirts of San Jose. In late 2017,
+                                                the classic restaurant reopened under new ownership. Its retained much
+                                                of the same staff and old world elegance, with a la carte dishes,
+                                                $95–$225 tasting menus and hearty dishes like poached lobster tail in
+                                                lime beurre blanc or rack of lamb in garlic, rosemary and tarragon
+                                                mustard.
+                                        </td>
+
+                                        <td> <img src="images/foret.jpg" alt="laforet" title="La Foret" class="img">
+                                        </td>
+                                </tr>
+                        </table>
+                        <h4 class="h4">Cafe de los Deseos</h4>
+                        <table class="table">
+                                <tr>
+                                        <td>With a setting that feels almost more like an art gallery than a restaurant,
+                                                Café de los Deseos whisks you away to a funky evening that is, in a
+                                                word, hip. With dishes inspired by cultures all over the world, it
+                                                really will fulfil your deseos (wishes). They offer a variety of coffee
+                                                drinks and alcoholic beverages including craft beer and sangria.
+                                        </td>
+
+                                        <td> <img src="images/cafedelosdeseos.jpg" alt="cafedelosdeseos"
+                                                        title="Cafe de los Deseos" class="img"> </td>
+                                </tr>
+                        </table>
+                </div>
+
+                <h2 class="h2">Night Life</h2>
+
+                <h4 class="h4">Costa Rica's Craft Brewing Company</h4>
+                <table class="table">
+                        <tr>
+                                <td>In an old refurebished factory an hour outside the city of San Jose, a couple of
+                                        beer afficionados are going against the grain, crafting artisinal beer using
+                                        only whole grains, hops, yeast, and water. The concept is novel in a country
+                                        that loves its national beers, Imperial and Pilsen, but CRCBC's beers stand up
+                                        to high tasting standards. Every Wednesday through Friday from 4pm to 6pm they
+                                        offer a tour of the premises where they explain the hands-on artisinal process
+                                        and offer tastings of more than seven different types of beer. CRBC's signature
+                                        beers are the Libertas Golden Ale and Segua Red Ale.
+                                </td>
+
+                                <td><img src="images/craftbrewing.jpg" alt="craftbrewing" title="Craft Brewing Co."
+                                                class="img"> </td>
+                        </tr>
+                </table>
+                <h4 class="h4">Jazz Cafe San Pedro</h4>
+                <table class="table">
+                        <tr>
+                                <td>Once the only place to check out consistently high-quality live music, especially
+                                        jazz, in San Jose, The Jazz Cafe remains the best venue to see, hear, drink and
+                                        eat under one roof. It is located in the San Pedro neighborhood, has a
+                                        restaurant with good food and a full bar to go with the music. The shows vary
+                                        from night to night, and past artists have included Mike Stern, Julien Lourau,
+                                        Diego Urcola, Dennis Chambers, Frank Gambale, Steve Smith, and Scott Henderson,
+                                        to name a few.
+                                </td>
+
+                                <td> <img src="images/jazzcafe.jpg" alt="jazzcafe" title="Jazz Cafe Costa Rica"
+                                                class="img"> </td>
+                               
+                        </tr>
+                </table>
+                <button id="button">Toggle</button>
+                <br>
+                <br>
+                <a href="sanjose.htm" id="back">Back to Top</a>
+        </header>
 </body>
-
-
 
 </html>
